@@ -1,8 +1,8 @@
-module github.com/srikanthccv/Clickhouse-go-mock/examples
+module github.com/srikanthccv/Datastore-go-mock/examples
 
 go 1.21.0
 
-require github.com/srikanthccv/ClickHouse-go-mock v0.4.0
+require github.com/srikanthccv/Datastore-go-mock v0.4.0
 
 require (
 	github.com/ClickHouse/ch-go v0.58.2 // indirect

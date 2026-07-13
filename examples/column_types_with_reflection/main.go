@@ -5,11 +5,11 @@ import (
 	"log"
 	"reflect"
 
-	cmock "github.com/hanzoai/clickhouse-go-mock"
+	cmock "github.com/hanzoai/datastore-go-mock"
 )
 
 func main() {
-	mock, err := cmock.NewClickHouseNative(nil)
+	mock, err := cmock.NewDatastoreNative(nil)
 	if err != nil {
 		log.Fatalf("an error '%s' was not expected when opening a stub database connection", err)
 	}

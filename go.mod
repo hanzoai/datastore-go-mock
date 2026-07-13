@@ -1,4 +1,4 @@
-module github.com/hanzoai/clickhouse-go-mock
+module github.com/hanzoai/datastore-go-mock
 
 go 1.26.4
 

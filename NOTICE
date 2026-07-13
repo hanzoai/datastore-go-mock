@@ -1,0 +1,8 @@
+datastore-go-mock
+
+Fork of github.com/hanzoai/clickhouse-go-mock (itself derived from
+SigNoz/clickhouse-go-mock and ClickHouse/clickhouse-go), renamed for the
+Hanzo datastore debrand. Licensed under Apache-2.0; original copyrights
+retained (see LICENSE). The module mocks the Hanzo datastore driver
+(github.com/hanzoai/datastore-go), which speaks the ClickHouse SQL wire
+protocol; upstream wire types (github.com/ClickHouse/ch-go) are used as-is.
